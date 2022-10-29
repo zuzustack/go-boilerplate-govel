@@ -1,8 +1,8 @@
 package route
 
 import (
-	"zuzuse/controllers"
-	route "zuzuse/utils/route"
+	"boilerplate/controllers"
+	route "boilerplate/utils/route"
 )
 
 func GetRoute()  {

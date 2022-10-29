@@ -31,8 +31,8 @@ fi
 
 if [[ "$1" == "start" ]]
 then
-    sed -i "s/$MODULE_NAME/\"$2\"/g" ./index.go
-    sed -i "s/$MODULE_NAME/\"$2\"/g" ./route/web.go 
-    sed -i "s/$MODULE_NAME/\"$2\"/g" ./go.mod 
-    sed -i "s/$MODULE_NAME/\"$2\"/g" ./controllers/*.go 
+    sed -i "s+$MODULE_NAME+$2+g" ./index.go
+    sed -i "s+$MODULE_NAME+$2+g" ./route/web.go 
+    sed -i "s+$MODULE_NAME+$2+g" ./go.mod 
+    sed -i "s+$MODULE_NAME+$2+g" ./controllers/*.go 
 fi

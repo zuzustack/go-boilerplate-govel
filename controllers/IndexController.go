@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	view "zuzuse/utils/view"
+	view "boilerplate/utils/view"
 	"net/http"
 )
 

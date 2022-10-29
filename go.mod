@@ -1,3 +1,3 @@
-module zuzuse
+module "boilerplate"
 
 go 1.19

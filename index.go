@@ -1,7 +1,7 @@
 package main
 
 import (
-	r "zuzuse/route"
+	r "boilerplate/route"
 	"fmt"
 	"net/http"
 )
